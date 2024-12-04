@@ -39,7 +39,7 @@ MainLayout: React.FC = () => {
     <Box>
       <Toolbar>
         <Typography variant="h6" noWrap component="div">
-          {import.meta.env.VITE_APP_NAME || 'My App'}
+          {import.meta.env.VITE_APP_NAME || 'BingX App'}
         </Typography>
       </Toolbar>
       <List>
@@ -82,7 +82,7 @@ MainLayout: React.FC = () => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap component="div">
-            {import.meta.env.VITE_APP_NAME || 'My App'}
+            {import.meta.env.VITE_APP_NAME || 'BingX App'}
           </Typography>
         </Toolbar>
       </AppBar>

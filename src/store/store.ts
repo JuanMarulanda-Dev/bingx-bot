@@ -1,9 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
-import bingxAccountsReducer from './slices/bingxAccountsSlice';
+import tradeReducer from './slices/tradeSlice';
 
 export const store = configureStore({
   reducer: {
-    bingxAccounts: bingxAccountsReducer,
+    trade: tradeReducer,
   },
 });
 

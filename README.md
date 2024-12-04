@@ -51,10 +51,10 @@ export default tseslint.config({
 
 ## accounts.json file configuration
 
-The `accounts.json` file must follow this format:
+The `.env` file must have this property:
 
 ```json
-{
+BINGX_ACCOUNTS={
   "accounts": [
     {
       "apiKey": "your_api_key",
