@@ -1,9 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
-import userReducer  from './slices/userSlice';
+import bingxAccountsReducer from './slices/bingxAccountsSlice';
 
 export const store = configureStore({
   reducer: {
-    user: userReducer,
+    bingxAccounts: bingxAccountsReducer,
   },
 });
 

@@ -48,3 +48,21 @@ export default tseslint.config({
   },
 })
 ```
+
+## accounts.json file configuration
+
+The `accounts.json` file must follow this format:
+
+```json
+{
+  "accounts": [
+    {
+      "apiKey": "your_api_key",
+      "secretKey": "your_secret_key",
+      "owner": "User Name"
+    }
+  ]
+}
+```
+
+Make sure to replace `"your_api_key"`, `"your_secret_key"`, and `"User Name"` with your actual account values.
