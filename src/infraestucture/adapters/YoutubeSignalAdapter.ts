@@ -5,7 +5,15 @@ import { PositionSide } from '../../shared/types/PerpetualFutureTypes';
 export class YoutubeSignalAdapter implements ISignalProvider {
   private mockSignals: TradingSignal[] = [
     {
-      currency: 'BTC-USDT',
+      currency: 'BTC-USD',
+      type: PositionSide.LONG,
+      investmentPercentage: 10,
+      stopLoss: 42000,
+      takeProfit: 45000,
+      timestamp: new Date(),
+    },
+    {
+      currency: 'LTC-USD',
       type: PositionSide.LONG,
       investmentPercentage: 10,
       stopLoss: 42000,
